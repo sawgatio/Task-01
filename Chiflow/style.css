@@ -1,0 +1,419 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.overLay{
+  height: 100%;
+  width: 100%;
+  padding: 3vh 10vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 99;
+}
+
+.overLay nav .logo{
+  min-width: 100px;
+  height: fit-content;
+}
+.overLay nav .logo i{
+ font-size: x-large;
+}
+
+.overLay h3{
+  display: inline-block;
+  font-size:x-large;
+}
+.overLay nav{
+  width: 100%;
+  height: 10%;
+  display: flex;
+}
+
+.overLay nav .medNav{
+  position: absolute;
+  font-weight: 800;
+  font-size: small;
+  left: 40%;
+  transform: translate(-50%);
+  display: flex;
+  gap: 10vh;
+  width: fit-content;
+  height: fit-content;
+  text-decoration: none;
+}
+
+.overLay .hero{
+  width: 50%;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+.overLay .hero h1{
+  width: 90%;
+  margin-bottom: 2rem;
+  font-weight: 900;
+  font-size: 5rem;
+}
+.overLay .hero p{
+  width: 70%;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+.overLay .hero button{
+  padding: 0.7rem 2rem;
+  background-color: black;
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.medNav a{
+  color: black;
+  text-decoration: none;
+}
+
+.page{
+  height: 100%;
+  width: 100%;
+} 
+
+.page1{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.hero{
+  height: 100%;
+  width: 100%;
+}
+
+.rightHero{
+  position: relative;
+  height: 90%;
+  width: 60%;
+  background-image: url(https://c0.wallpaperflare.com/preview/56/46/456/cactus-flower-pot-houseplant-plant.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  justify-self: flex-end;
+  background-color: #f3f3f3;
+}
+.rightHero i{
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  font-size: xx-large;
+  transform: translate(-50%,-5%);
+}
+
+.page1 .btm{
+  display: flex;
+  width: 100%;
+  position: absolute;
+  bottom: 5%; 
+  left: 15%;
+  height: 1rem;
+}
+
+.cont {
+  display: flex;
+  align-items: center;
+  margin-left: -98px;
+}
+
+.firstHero {
+  transform: rotate(-90deg);
+  width: fit-content;
+  justify-content: center;
+  text-decoration: none;
+  display: flex;
+  gap: 3rem;
+  width: fit-content;
+  height: fit-content;
+}
+
+.firstHero a {
+  text-decoration: none;
+  color: black;
+}
+
+.pointers{
+  height: 50%;
+  width: 60%;
+  background-color: rgba(63, 63, 63, 0.765);
+}
+
+.subPointer{
+  height: 100%;
+  width: 20%;
+  background-color: rgb(0, 0, 0);
+}
+
+.btmBody{
+  margin-left: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  height: 100%;
+  width: 80%;
+  font-weight: 900;
+}
+
+.bold{
+  font-size: medium;
+  margin-top: -5px;
+  margin-left: -300px;
+  color: black;
+  font-weight: 900;
+}
+
+.social{
+  width: 5%;
+}
+
+.page2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.page2 .first {
+  height: 80%;
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/plants-blog/1-D.jpg);
+
+}
+.page2 .second {
+  height: 50%;
+  width: 100%;
+  padding: 10vh ;
+  margin-left: -10rem;
+  background-color: white;
+}
+
+.page2 .second h2{
+  width: 30%;
+  margin-bottom: 1rem;
+}
+.page2 .second p{
+  width: 40%;
+  margin-bottom: 2rem;
+}
+.page2 .second a{
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+}
+.page2 .second i{
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translate(-50%);
+  font-size: xx-large;
+}
+
+.page3{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 10vh;
+}
+.page3 .first{
+  height: 100%;
+  width: 100%;
+  padding: 10vh;
+  padding-right: 60vh ;
+}
+.page3 .second{
+  height: 100%;
+  width: 100%;
+  background-image: url(https://plus.unsplash.com/premium_photo-1681487798758-04787a334670?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.page3 p{
+  line-height: 2rem;
+  font-size: 1.2rem;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 1rem;
+}
+
+.page3 h2{
+  font-size: xx-large;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.page3 .first p:first-child{
+  margin-bottom: 0;
+}
+.page3 .head{
+  font-size: x-large;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+.page3 .btn {
+  position: absolute;
+  bottom: 10%;
+  left: 10vh;
+  padding: 3vh 5vh;
+  letter-spacing: 0.1rem;
+  font-weight: 800;
+  font-size: large;
+  color: white;
+  background-color: black;
+}
+
+.page4 {
+  background-image:url(https://i1.pickpik.com/photos/339/511/699/flower-bloom-pink-stem-preview.jpg);
+  height: 80%;
+  width: 100%;
+  background-position: 60%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.page4 .first{
+  height: fit-content;
+  width: 30vw;
+  margin-left: 20vh;
+  background-color: white;
+  padding: 10vh;
+
+}
+.page4 .first h2{
+  line-height: 1.5rem;
+  margin-bottom:1.5rem ;
+}
+.page4 .first p{
+  margin-bottom:1.5rem ;
+}
+.page4 .first a{
+  color: black;
+  font-weight: 800;
+}
+.page4 .second button{
+  color: black;
+  position: absolute;
+  right: 15%;
+  bottom: -1%;
+  padding: 3vh 5vh;
+  border: none;
+  background-color: white;
+  font-weight: 800;
+}
+
+.page5 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding: 10vh;
+  gap: 3rem;
+}
+.page5 :first-child{
+  margin-bottom: 2rem;
+}
+.page5 .first {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://c1.wallpaperflare.com/preview/599/555/601/plant-glass-bottle-hand-holding.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.page5 .second{
+  height: 100%;
+  width: 100%;
+  padding: 0 1vh;
+}
+.page5 .second *{
+  margin-top: 1.1rem;
+}
+.page5 .third{
+  height: 100%;
+  width: 100%;
+  padding: 0 1vh;
+}
+.page5 .third p:first-child{
+  margin-top: 5rem;
+}
+.page5 .third p{
+  margin-bottom: 1rem;
+}
+
+footer{
+  height: 65%;
+  width: 100%;
+  display: flex;
+  background-color: black;
+  color: white;
+}
+footer .first{
+  height: 100%;
+  width: 100%;
+  padding: 10vh;
+}
+footer .first h3{
+  font-size: large;
+}
+footer .first input{
+  padding: 0.5vh 2vw;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+}
+footer .first button{
+  padding: 0.5vh  2vw;
+  color: black;
+  background-color: white;
+}
+.flex{
+  display: flex;
+  margin-bottom: 30vh;
+  margin-top: 2vh;
+}
+footer .second{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 3vh;
+  flex-direction: column;
+  padding-top: 10vh;
+}
+footer .second a{
+  text-decoration: none;
+  color:white
+}
+footer .third{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 3vh;
+  flex-direction: column;
+  padding-top: 10vh;
+}
+footer .third a{
+  text-decoration: none;
+  color:white
+}
